@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <nav>
+            <ul>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><input action="action" onclick="window.history.go(-1); return false;" type="submit" value="Previous Page"></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <main>
+        <div class="center"> <!-- center class for everything-->
+            <h1>A Website About A Guy Who Just Loves To <a>Code</a></h1> <small>most of the time</small>
+            <h3>This is my portfolio / final project for my web development class! Enjoy.</h3>
+            <a href="#projects">click here to skip to projects</a>
+        </div>
+        
+
+        <div class="center">
+            <h1>Select a background color!</h1>
+
+            <form>
+                <input type="radio" id="default" name="bgColor" value="DEFAULTBG">
+                <label for="default">Default</label><br>
+                <input type="radio" id="red" name="bgColor" value="REDBG">
+                <label for="red">Red</label><br>
+                <input type="radio" id="white" name="bgColor" value="WHITEBG">
+                <label for="white">White</label><br>
+            </form>
+            <button type="button" onClick="changeColor()">Change Color!</button>
+
+        </div>
+
+
+
+        <div id="projects" name="projects">
+            <h1>My current projects</h1>
+            <ul>
+                <li><a href="discordBot.html"><img src="img/calender.jpg"></a></li>
+                <li><a href="videogame.html"><img src="img/gameCapture.jpg"></a></li>
+                <li><a href="amongUsMod.html"><img src="img/amongUsMod.png"></a></li>
+            </ul>
+        </div>
+    </main>
+
+
+    <footer>
+        <h1>Contact Info</h1>
+        <p>Email: <a href="mailto:alexander.stevens2023@gmail.com">alexander.stevens2023@gmail.com</a></p>
+        <p>Discord: Alexander.#7389</p>
+    </footer>
+</body>
+
+</html>
